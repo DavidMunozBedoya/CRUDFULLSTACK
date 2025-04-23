@@ -1,0 +1,22 @@
+pasos para crear un repositorio y subir el proyecto en github
+
+1. crea un repositorio en gitHub
+
+2. copia los comandos que aporta el programa para agregarlos a la terminal de visual code
+
+ ej. git remote add origin https://github.com/tu_usuario/mi-proyecto-vscode.git
+
+3. en la terminal ejecuta los comandos:
+
+git init
+git add .
+git commit -m "Primer commit"
+
+
+
+
+pasos para actualizar el repositorio en gitHub
+
+git add .
+git commit -m "mensaje descriptivo"
+git push
