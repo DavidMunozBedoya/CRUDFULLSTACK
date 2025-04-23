@@ -1,0 +1,39 @@
+{
+  "aprendices": [
+    {
+      "id": "1",
+      "nombre": "Amparo",
+      "apellido": "Calle",
+      "estaMatriculado": true,
+      "email": "amparo@correo.com"
+    },
+    {
+      "id": "2",
+      "nombre": "Andres",
+      "apellido": "Calle",
+      "estaMatriculado": true,
+      "email": "andres@correo.com"
+    },
+    {
+      "id": "3",
+      "nombre": "David",
+      "apellido": "Muñoz",
+      "estaMatriculado": true,
+      "email": "david@correo.com"
+    },
+    {
+      "id": "4",
+      "nombre": "Norma ",
+      "apellido": "alzate patiño",
+      "estaMatriculado": true,
+      "email": "munozd50@gmail.com"
+    },
+    {
+      "id": "5",
+      "nombre": "Amparo",
+      "apellido": "Carrillo",
+      "estaMatriculado": true,
+      "email": "amparo@correo.com"
+    }
+  ]
+}
