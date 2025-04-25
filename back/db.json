@@ -6,6 +6,13 @@
       "apellido": "Muñoz Alzate",
       "estaMatriculado": "True",
       "email": "matias@gmail.com"
+    },
+    {
+      "id": "81735387",
+      "nombre": "jesus david ",
+      "apellido": "muñoz bedoya",
+      "estaMatriculado": "False",
+      "email": "munozd50@gmail.com"
     }
   ]
 }
