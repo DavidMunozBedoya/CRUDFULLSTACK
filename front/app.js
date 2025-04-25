@@ -52,7 +52,8 @@ function leerApi(){
 };
 
 function eliminarRegistro(e){
-    const id = e.target.id;
+    const id = e.target.id; // cargo el id del registro a eliminar
+    //consulto la api para eliminar el registro
     fetch(`${url}/${id}`, {
         method: 'DELETE'
     })
@@ -70,7 +71,7 @@ function agregarDatos(e) {
     e.preventDefault();
 
     const nuevoId = id.value; // Obtener el nuevo ID del formulario
-    // Verificar si el ID ya existe en la API
+    // Verificar si el ID ya existe en la base de datos(API)
 
     fetch(`${url}/${nuevoId}`)
         .then((res) => {
@@ -80,7 +81,7 @@ function agregarDatos(e) {
                 alert("El ID ya existe, por favor ingresa otro ID.");
                 throw new Error("ID duplicado");
             } else {
-                // El ID no existe, se puede agregar
+                // si el ID no existe, se puede agregar a la base de datos
                 const datos = {
                     id: id.value,
                     nombre: nombre.value,
